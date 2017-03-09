@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.grantsome.myviewtest.MainActivity">
+
+    <com.grantsome.myviewtest.MyFirstView
+        app:viewColor="#078965"
+        android:id="@+id/my_first_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.grantsome.myviewtest.MySecondView
+        app:viewText="Simonal is handsome"
+        app:viewTextColor="@android:color/holo_red_light"
+        app:viewTextSize="16dp"
+        android:id="@+id/my_second_view"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/my_first_button"
+        android:background="@android:color/transparent"
+        android:text="下一个Activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="497dp"/>
+
+</RelativeLayout>

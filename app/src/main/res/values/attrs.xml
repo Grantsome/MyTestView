@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--reference：参考某一资源的ID(比如设置name=background)-->
+    <!--color：颜色-->
+    <!--boolean：比如设置focusable-->
+    <!--dimension：尺寸值-->
+    <declare-styleable name="MyFirstView">
+        <attr name="viewColor" format="color"> </attr>
+    </declare-styleable>
+    <declare-styleable name="MySecondView">
+        <attr name="viewText" format="string"/>
+        <attr name="viewTextColor" format="color"/>
+        <attr name="viewTextSize" format="dimension"/>
+        <attr name="viewBackground" format="color"/>
+    </declare-styleable>
+</resources>
